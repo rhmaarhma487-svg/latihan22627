@@ -9,3 +9,18 @@ h1 {
     body {
       background-color: #E2B0B0;
     }
+    /* mengubah div menjadi tampilan kartu */
+    div {
+    background: #E2BCDF;  
+    width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px #FFFFFF;
+    text-align: center;
+    }
+    
+    div img{
+      border-radius: 50%  ;
+      border: 3px solid #75467D;
+    }
