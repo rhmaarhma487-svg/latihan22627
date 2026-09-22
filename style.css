@@ -1,26 +1,44 @@
 h1 {
-      background-color: #8AB5E2;
-      color: #FFFFFF;
-    }
-    a {
-      color: fff;
-    }
-    
-    body {
-      background-color: #E2B0B0;
-    }
-    /* mengubah div menjadi tampilan kartu */
-    div {
-    background: #E2BCDF;  
-    width: 250px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px #FFFFFF;
-    text-align: center;
-    }
-    
-    div img{
-      border-radius: 50%  ;
-      border: 3px solid #75467D;
-    }
+  background-color: #8AB5E2;
+  color: #FFFFFF;
+}
+
+a {
+  color: fff;
+}
+
+body {
+  background-color: #E2B0B0;
+}
+
+/* mengubah div menjadi tampilan kartu */
+div {
+  background: #E2BCDF;
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px #FFFFFF;
+  text-align: center;
+}
+
+div img {
+  border-radius: 50%;
+  border: 3px solid #75467D;
+}
+
+.navigasi {
+  background-color: #8AB5E2;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.navigasi a {
+  text-decoration: none;
+}
+
+.navigasi .aktif {
+  font-weight: bold;
+  color: #EDFBBE;
+}
