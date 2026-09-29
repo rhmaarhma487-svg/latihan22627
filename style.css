@@ -1,6 +1,7 @@
 h1 {
   background-color: #8AB5E2;
   color: #FFFFFF;
+  text-align: center;
 }
 
 a {
@@ -24,7 +25,7 @@ div.kartu-profil {
 
 div.kartu-profil img{
   border-radius: 50%;
-  border: 3px solid #75467D;
+  border: 3px solid #7D82B2;
 }
 
 .navigasi {
@@ -51,6 +52,8 @@ div.kartu-kontak{
   padding: 10px;
   /* sudut tumpul kotak */
   border-radius: 10px;
+  text-align: center;
+
 }
 
 .tombol-medsos {
@@ -71,4 +74,32 @@ div.kartu-kontak{
 
 .github {
   background-color: #C2FFD0;
+}
+
+.galeri-container{
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* item galeri foto */
+.galeri-item{
+  width: 50%;
+  max-width: 180px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #A3C0F1;
+}
+
+.galeri-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.galeri-item p {
+  padding: 0px;
+  line-break: 0.5;
 }
