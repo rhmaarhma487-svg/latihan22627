@@ -2,7 +2,16 @@
 // dengan nilai awal (0)
 let porsi = 0
 
+//siapkan aset suara di variabel 
+let suaraMakan = new Audio("minigame/makan.mp3")
+let suaraMain = new Audio ("minigame/ajak mainnn.mp3")
+let suaraReset = new Audio ("minigame/reset.mp3")
+
 function beriMakan() {
+  //efek suara makan
+  suaraMakan.currentTime = 0
+  suaraMakan.play()
+  
   // 1. ambil teks dari input angka kotak teks 
   let teksInput = document.getElementById('input-makanan').value
   
@@ -17,6 +26,10 @@ function beriMakan() {
 
 //fungsi untuk mengajak main kucing (porsi dikurangi 1)
 function ajakMain() {
+  //efek suara ajak main
+  suaraMain.currentTime = 0
+  suaraMain.play()
+  
   // mengurangi porsi 1 tapi cegah jangan sampai negatif
   if (porsi > 0) {
     porsi = porsi - 1
@@ -26,6 +39,9 @@ function ajakMain() {
 }
 
 function reset() {
+  //suara reset
+  suaraReset.currentTime = 0
+  suaraReset.play()
   porsi = 0
   
   updateTampilan()
