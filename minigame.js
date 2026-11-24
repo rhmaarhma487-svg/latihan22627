@@ -3,9 +3,9 @@
 let porsi = 0
 
 //siapkan aset suara di variabel 
-let suaraMakan = new Audio("minigame/makan.mp3")
-let suaraMain = new Audio ("minigame/ajak mainnn.mp3")
-let suaraReset = new Audio ("minigame/reset.mp3")
+let suaraMakan = new Audio("gambar/makan.mp3")
+let suaraMain = new Audio ("gambar/ajakmainnn.mp3")
+let suaraReset = new Audio ("gambar/reset.mp3")
 
 function beriMakan() {
   //efek suara makan
